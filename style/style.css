@@ -18,7 +18,7 @@ body {
 /* Estilo del header */
 
 header {
-  background-color: #cc743d;
+  background-image: linear-gradient(to left, #ff924d, 70%, #70b1d1);
   position: sticky;
   top: 0;
   display: flex;
@@ -47,6 +47,14 @@ header {
 .menu_item a {
   color: white;
   text-decoration: none;
+}
+
+.menu_item {
+  transition: all 1s;
+}
+
+.menu_item:hover {
+  transform: scale(1.1);
 }
 
 /* Estilo del main */
@@ -116,6 +124,7 @@ main {
   justify-content: center;
   align-items: center;
   background-color: azure;
+  padding: 10px;
 }
 
 .titulo2 {
@@ -125,6 +134,7 @@ main {
   justify-content: center;
   align-items: center;
   background-color: azure;
+  padding: 10px;
 }
 
 .texto1 {
@@ -175,6 +185,12 @@ main {
   border: 3px solid greenyellow;
   color: black;
   list-style: none;
+  transition: all 1s;
+}
+
+.caja_pages_texto_1:hover {
+  transform: scale(1.2);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
 
 .caja_pages_texto_2 {
@@ -185,6 +201,12 @@ main {
   border: 3px solid greenyellow;
   color: black;
   list-style: none;
+  transition: all 1s;
+}
+
+.caja_pages_texto_2:hover {
+  transform: scale(1.2);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
 
 .caja_pages_texto_3 {
@@ -195,6 +217,12 @@ main {
   border: 3px solid greenyellow;
   color: black;
   list-style: none;
+  transition: all 1s;
+}
+
+.caja_pages_texto_3:hover {
+  transform: scale(1.2);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
 
 .estilos_iframes_1 {
@@ -253,6 +281,11 @@ footer {
   height: 3em;
   width: 3em;
   padding: 10px 10px 10px 10px;
+  transition: all 1s;
+}
+
+.logo_footer:hover {
+  transform: scale(1.5);
 }
 
 /* Media queries 768px */
