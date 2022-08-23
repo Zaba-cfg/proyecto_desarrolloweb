@@ -38,6 +38,13 @@ body {
   width: 70%;
 }
 
+/* Estilos de los iframes */
+
+.iframes {
+  width: 75%;
+  height: 100%;
+}
+
 /* Estilo del footer */
 
 .logo_footer {
