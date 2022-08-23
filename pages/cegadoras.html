@@ -11,8 +11,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
-    <!-- Link de animaciones -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <!-- Link de boostrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <!-- Link de css -->
     <link rel="stylesheet" href="./../css/style.css">
     <!-- Título de la página -->
@@ -23,15 +24,35 @@
     <!-- Comienzo del header -->
     <header>
         <!-- Navbar + Logo -->
-        <a href="./../index.html"><img class="logo" src="./../images/proyecto_logo.png" alt="Logo del proyecto"></a>
-        <nav class="navbar">
-            <ul class="menu">
-                <li class="menu_item"><a href="./../index.html">Inicio</a></li>
-                <li class="menu_item"><a href="./cegadoras.html">Cegadoras</a></li>
-                <li class="menu_item"><a href="./humos.html">Humos</a></li>
-                <li class="menu_item"><a href="./molotovs.html">Molotovs</a></li>
-                <li class="menu_item"><a href="./comunidad.html">Comunidad</a></li>
-            </ul>
+        <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href=".././index.html"><img class="logo" src=".././images/proyecto_logo.png"
+                        alt="Logo del proyecto">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href=".././index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href=".././pages/cegadoras.html">Cegadoras</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href=".././pages/humos.html">Humos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href=".././pages/molotovs.html">Molotovs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href=".././pages/comunidad.html">Comunidad</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
     <!-- Fin del header -->
@@ -76,14 +97,22 @@
     </main>
     <!-- Fin del main -->
     <!-- Comienzo del footer -->
-    <footer>
-        <p class="texto_footer">¡Seguinos en nuestras redes!</p>
-        <a href="https://www.instagram.com/" target="_blank"><img class="logo_footer"
-                src="./../images/instagram_logo.png" alt="Logo de Instagram"></a>
-        <a href="https://www.facebook.com/" target="_blank"><img class="logo_footer" src="./../images/facebook_logo.png"
-                alt="Logo de Facebook"></a>
+    <footer class="bg-black p-3">
+        <div class="d-flex justify-content-center align-items-center">
+            <p class="text-white">¡Seguinos en nuestras redes!</p>
+        </div>
+        <div class="d-flex justify-content-center align-items-center">
+            <a href="https://www.instagram.com/" target="_blank"><img class="logo_footer p-2"
+                    src=".././images/instagram_logo.png" alt="Logo de Instagram"></a>
+            <a href="https://www.facebook.com/" target="_blank"><img class="logo_footer p-2"
+                    src=".././images/facebook_logo.png" alt="Logo de Facebook"></a>
+        </div>
     </footer>
     <!-- Fin del footer-->
+    <!-- Script de boostrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
