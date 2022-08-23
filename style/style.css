@@ -67,7 +67,7 @@ main {
 /* Banners */
 
 .banner {
-  background-image: url(../images/banner_csgo.jpeg);
+  background-image: url("../images/banner_csgo.jpeg");
   background-size: cover;
   padding-top: 160px;
   min-height: 30em;
