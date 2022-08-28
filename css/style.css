@@ -1,25 +1,21 @@
 /* Estilo general */
-
 * {
   font-family: "Poppins", sans-serif;
 }
 
 /* Estilo del body */
-
 body {
   background-image: linear-gradient(to left, #ff924d, #70b1d1);
 }
 
 /* Estilo del header */
-
 /* Estilo del nav */
-
 .logo {
   width: 50px;
 }
 
+/* Estilos del main */
 /* Banners */
-
 .banner {
   background-image: url(".././images/banner_csgo.jpeg");
   background-position: center;
@@ -33,21 +29,18 @@ body {
 }
 
 /* Cards del index */
-
 .cards_size {
   width: 70%;
 }
 
 /* Estilos de los iframes */
-
 .iframes {
   width: 75%;
   height: 100%;
 }
 
 /* Estilo del footer */
-
-footer{
+footer {
   height: 14vh;
 }
 
