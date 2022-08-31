@@ -99,3 +99,12 @@ body {
 .logo_footer:hover {
   transform: scale(1.2);
 }
+
+/* Media queries */
+
+@media screen and (max-width: 767.98px) {
+  .media_center {
+    display: unset!important;
+    justify-content: unset!important;
+  }
+}
