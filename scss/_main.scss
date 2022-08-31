@@ -1,0 +1,35 @@
+// Banners
+main {
+  .banner {
+    background-image: url(".././images/banner_csgo.jpeg");
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+  }
+}
+
+main {
+  div {
+    .banner2 {
+      background-image: url(".././images/csgo_comunidad.jpg");
+      background-position: center;
+      background-size: cover;
+      height: 80vh;
+    }
+  }
+}
+
+// Iframes
+main {
+  section {
+    div {
+      div {
+        .iframes {
+          width: 80%;
+          height: 100%;
+          transition: all 0.5s;
+        }
+      }
+    }
+  }
+}

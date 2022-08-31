@@ -1,110 +1,76 @@
-/* Estilo general */
+@media screen and (max-width: 767.98px) {
+  .media_center {
+    display: unset !important;
+    justify-content: unset !important; } }
+
 * {
-  font-family: "Poppins", sans-serif;
-}
+  font-family: "Poppins", sans-serif; }
 
-/* Estilo del body */
+*::selection {
+  background-color: #ff924d;
+  color: black; }
+
 body {
-  background-image: linear-gradient(to left, #ff924d, #70b1d1);
-}
+  background-image: linear-gradient(to left, #ff924d, #70b1d1); }
 
-/* Estilo del header + nav */
-.logo {
-  width: 50px;
-  transition: all 2s;
-}
+header nav div a .logo {
+  width: 50px; }
 
-.logo:hover {
-  animation: logo infinite linear;
-  animation-duration: 1.5s;
-}
-
-@keyframes logo {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-/* Banners */
-.banner {
+main .banner {
   background-image: url(".././images/banner_csgo.jpeg");
   background-position: center;
   background-size: cover;
-  height: 80vh;
-}
+  height: 80vh; }
 
-.banner2 {
+main div .banner2 {
   background-image: url(".././images/csgo_comunidad.jpg");
   background-position: center;
   background-size: cover;
-  height: 80vh;
-}
+  height: 80vh; }
 
-.texto_banner {
-  animation-name: texto;
-  animation-duration: 2s;
-  animation-timing-function: ease-in-out;
-}
-
-@keyframes texto {
-  from {
-    width: 40%;
-  }
-  to {
-    width: 100%;
-  }
-}
-
-/* Cards del index */
-.cards_size {
-  width: 70%;
-}
-
-.cards_animation {
-  animation-name: cards;
-  animation-duration: 3s;
-  animation-timing-function: ease-in-out;
-}
-
-@keyframes cards {
-  from {
-    width: 40%;
-  }
-  to {
-    width: 70%;
-  }
-}
-
-/* Estilos de los iframes */
-.iframes {
+main section div div .iframes {
   width: 80%;
   height: 100%;
-  transition: all 0.5s;
-}
+  transition: all 0.5s; }
 
-.iframes:hover {
-  transform: scale(1.2);
-}
-
-/* Estilo del footer */
-.logo_footer {
+footer div a .logo_footer {
   height: 3em;
   width: 3em;
-  transition: all 1s;
-}
+  transition: all 1s; }
+
+.logo:hover {
+  animation: logo 1.5s infinite linear; }
+
+@keyframes logo {
+  from {
+    transform: rotate(0deg); }
+  to {
+    transform: rotate(360deg); } }
+
+main div .texto_banner {
+  animation: animacion_titulo 2s ease-in-out; }
+
+@keyframes animacion_titulo {
+  from {
+    width: 40%; }
+  to {
+    width: 100%; } }
+
+main section div .texto_pages {
+  animation: animacion_titulo_pages 2s ease-in-out; }
+
+@keyframes animacion_titulo_pages {
+  from {
+    width: 60%; }
+  to {
+    width: 100%; } }
+
+.iframes:hover {
+  transform: scale(1.2); }
 
 .logo_footer:hover {
-  transform: scale(1.2);
-}
+  transform: scale(1.2); }
 
-/* Media queries */
-
-@media screen and (max-width: 767.98px) {
-  .media_center {
-    display: unset!important;
-    justify-content: unset!important;
-  }
-}
+main section div div .cards_colors {
+  background-color: #ff924d;
+  border: solid 4px #70b1d1; }
