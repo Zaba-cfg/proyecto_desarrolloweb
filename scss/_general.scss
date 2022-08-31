@@ -1,0 +1,12 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+*::selection {
+  background-color: $color_principal;
+  color: black;
+}
+
+body {
+  background-image: linear-gradient(to left, $color_principal, $color_secundario);
+}

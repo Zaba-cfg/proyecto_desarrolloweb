@@ -1,0 +1,61 @@
+// Logo
+.logo:hover {
+  animation: logo 1.5s infinite linear;
+}
+
+@keyframes logo {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+// Texto banners
+main {
+  div {
+    .texto_banner {
+      animation: animacion_titulo 2s ease-in-out;
+    }
+  }
+}
+
+@keyframes animacion_titulo {
+  from {
+    width: 40%;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+// Texto pages
+main {
+  section {
+    div {
+      .texto_pages {
+        animation: animacion_titulo_pages 2s ease-in-out;
+      }
+    }
+  }
+}
+
+@keyframes animacion_titulo_pages {
+  from {
+    width: 60%;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+// Iframes
+.iframes:hover {
+  transform: scale(1.2);
+}
+
+// Logos footer
+.logo_footer:hover {
+  transform: scale(1.2);
+}
