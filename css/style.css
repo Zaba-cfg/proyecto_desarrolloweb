@@ -1,101 +1,76 @@
 @media screen and (max-width: 767.98px) {
   .media_center {
     display: unset !important;
-    justify-content: unset !important;
-  }
-}
+    justify-content: unset !important; } }
 
 * {
-  font-family: "Poppins", sans-serif;
-}
+  font-family: "Poppins", sans-serif; }
 
 *::selection {
   background-color: #ff924d;
-  color: black;
-}
+  color: black; }
 
 body {
-  background-image: linear-gradient(to left, #ff924d, #70b1d1);
-}
+  background-image: linear-gradient(to left, #ff924d, #70b1d1); }
 
 header nav div a .logo {
-  width: 50px;
-}
+  width: 50px; }
 
 main .banner {
   background-image: url(".././images/banner_csgo.jpeg");
   background-position: center;
   background-size: cover;
-  height: 80vh;
-}
+  height: 80vh; }
 
 main div .banner2 {
   background-image: url(".././images/csgo_comunidad.jpg");
   background-position: center;
   background-size: cover;
-  height: 80vh;
-}
+  height: 80vh; }
 
 main section div div .iframes {
   width: 80%;
   height: 100%;
-  transition: all 0.5s;
-}
+  transition: all 0.5s; }
 
 footer div a .logo_footer {
   height: 3em;
   width: 3em;
-  transition: all 1s;
-}
+  transition: all 1s; }
 
 .logo:hover {
-  animation: logo 1.5s infinite linear;
-}
+  animation: logo 1.5s infinite linear; }
 
 @keyframes logo {
   from {
-    transform: rotate(0deg);
-  }
+    transform: rotate(0deg); }
   to {
-    transform: rotate(360deg);
-  }
-}
+    transform: rotate(360deg); } }
 
 main div .texto_banner {
-  animation: animacion_titulo 2s ease-in-out;
-}
+  animation: animacion_titulo 2s ease-in-out; }
 
 @keyframes animacion_titulo {
   from {
-    width: 40%;
-  }
+    width: 40%; }
   to {
-    width: 100%;
-  }
-}
+    width: 100%; } }
 
 main section div .texto_pages {
-  animation: animacion_titulo_pages 2s ease-in-out;
-}
+  animation: animacion_titulo_pages 2s ease-in-out; }
 
 @keyframes animacion_titulo_pages {
   from {
-    width: 60%;
-  }
+    width: 60%; }
   to {
-    width: 100%;
-  }
-}
+    width: 100%; } }
 
 .iframes:hover {
-  transform: scale(1.2);
-}
+  transform: scale(1.2); }
 
 .logo_footer:hover {
-  transform: scale(1.2);
-}
+  transform: scale(1.2); }
 
 main section div div .cards_colors {
   background-color: #ff924d;
-  border: solid 4px #70b1d1;
-}
+  border: solid 4px #70b1d1; }
