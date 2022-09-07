@@ -3,6 +3,11 @@
   animation: logo 1.5s infinite linear;
 }
 
+// Logos footer
+.logo_footer:hover {
+  transform: scale(1.2);
+}
+
 @keyframes logo {
   from {
     transform: rotate(0deg);
@@ -12,36 +17,16 @@
   }
 }
 
-// Texto banners
+// Animación texto banners
 main {
   div {
-    .texto_banner {
-      animation: animacion_titulo 2s ease-in-out;
+    .animacion_banner {
+      animation: animacion_titulo_banner 2s ease-in-out;
     }
   }
 }
 
-@keyframes animacion_titulo {
-  from {
-    width: 40%;
-  }
-  to {
-    width: 100%;
-  }
-}
-
-// Texto pages
-main {
-  section {
-    div {
-      .texto_pages {
-        animation: animacion_titulo_pages 2s ease-in-out;
-      }
-    }
-  }
-}
-
-@keyframes animacion_titulo_pages {
+@keyframes animacion_titulo_banner {
   from {
     width: 60%;
   }
@@ -52,10 +37,5 @@ main {
 
 // Iframes
 .iframes:hover {
-  transform: scale(1.2);
-}
-
-// Logos footer
-.logo_footer:hover {
   transform: scale(1.2);
 }

@@ -1,20 +1,16 @@
 // Banners
 main {
-  .banner {
+  .banner_index {
+    @extend %banner_centrado;
     background-image: url(".././images/banner_csgo.jpeg");
-    background-position: center;
-    background-size: cover;
-    height: 80vh;
   }
 }
 
 main {
   div {
-    .banner2 {
+    .banner_comunidad {
+      @extend %banner_centrado;
       background-image: url(".././images/csgo_comunidad.jpg");
-      background-position: center;
-      background-size: cover;
-      height: 80vh;
     }
   }
 }

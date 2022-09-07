@@ -2,8 +2,7 @@ footer {
   div {
     a {
       .logo_footer {
-        height: 3em;
-        width: 3em;
+        @include tamanio_general(3em, 3em);
         transition: all 1s;
       }
     }

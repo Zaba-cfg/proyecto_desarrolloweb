@@ -8,5 +8,9 @@
 }
 
 body {
-  background-image: linear-gradient(to left, $color_principal, $color_secundario);
+  background-image: linear-gradient(
+    to left,
+    $color_principal,
+    $color_secundario
+  );
 }

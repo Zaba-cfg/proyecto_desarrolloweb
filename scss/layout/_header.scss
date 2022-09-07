@@ -3,7 +3,7 @@ header {
     div {
       a {
         .logo {
-          width: 50px;
+          @include tamanio_general(50px, auto);
         }
       }
     }

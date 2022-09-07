@@ -1,5 +1,25 @@
+.pagina_cegadoras {
+  background-color: #7bc4e9;
+  border: solid 2px #7bc4e9; }
+
+.pagina_humos {
+  background-color: #2ef99a;
+  border: solid 2px #2ef99a; }
+
+.pagina_molotovs {
+  background-color: #f45459;
+  border: solid 2px #f45459; }
+
+main .banner_index, main div .banner_comunidad {
+  background-position: center;
+  background-size: cover;
+  height: 80vh; }
+
 .logo:hover {
   animation: logo 1.5s infinite linear; }
+
+.logo_footer:hover {
+  transform: scale(1.2); }
 
 @keyframes logo {
   from {
@@ -7,19 +27,10 @@
   to {
     transform: rotate(360deg); } }
 
-main div .texto_banner {
-  animation: animacion_titulo 2s ease-in-out; }
+main div .animacion_banner {
+  animation: animacion_titulo_banner 2s ease-in-out; }
 
-@keyframes animacion_titulo {
-  from {
-    width: 40%; }
-  to {
-    width: 100%; } }
-
-main section div .texto_pages {
-  animation: animacion_titulo_pages 2s ease-in-out; }
-
-@keyframes animacion_titulo_pages {
+@keyframes animacion_titulo_banner {
   from {
     width: 60%; }
   to {
@@ -28,10 +39,7 @@ main section div .texto_pages {
 .iframes:hover {
   transform: scale(1.2); }
 
-.logo_footer:hover {
-  transform: scale(1.2); }
-
-main section div div .cards_colors {
+main section div div .card_colors {
   background-color: #ff924d;
   border: solid 4px #70b1d1; }
 
@@ -41,8 +49,8 @@ main section div div .cards_colors {
     justify-content: unset !important; } }
 
 footer div a .logo_footer {
-  height: 3em;
   width: 3em;
+  height: 3em;
   transition: all 1s; }
 
 * {
@@ -56,19 +64,14 @@ body {
   background-image: linear-gradient(to left, #ff924d, #70b1d1); }
 
 header nav div a .logo {
-  width: 50px; }
+  width: 50px;
+  height: auto; }
 
-main .banner {
-  background-image: url(".././images/banner_csgo.jpeg");
-  background-position: center;
-  background-size: cover;
-  height: 80vh; }
+main .banner_index {
+  background-image: url(".././images/banner_csgo.jpeg"); }
 
-main div .banner2 {
-  background-image: url(".././images/csgo_comunidad.jpg");
-  background-position: center;
-  background-size: cover;
-  height: 80vh; }
+main div .banner_comunidad {
+  background-image: url(".././images/csgo_comunidad.jpg"); }
 
 main section div div .iframes {
   width: 80%;
