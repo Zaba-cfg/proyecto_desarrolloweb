@@ -57,11 +57,15 @@ footer div a .logo_footer {
   font-family: "Poppins", sans-serif; }
 
 *::selection {
-  background-color: #ff924d;
+  background-color: #70b1d1;
   color: black; }
 
 body {
   background-image: linear-gradient(to left, #ff924d, #70b1d1); }
+
+.body_error {
+  height: 110vh;
+  background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); }
 
 header nav div a .logo {
   width: 50px;

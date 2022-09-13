@@ -3,7 +3,7 @@
 }
 
 *::selection {
-  background-color: $color_principal;
+  background-color: $color_secundario;
   color: black;
 }
 
@@ -13,4 +13,10 @@ body {
     $color_principal,
     $color_secundario
   );
+}
+
+// Body de la página de error
+.body_error {
+  height: 110vh;
+  background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
 }
