@@ -8,15 +8,11 @@
 }
 
 body {
-  background-image: linear-gradient(
-    to left,
-    $color_principal,
-    $color_secundario
-  );
+  @include gradientes (left, $color_principal, $color_secundario);
 }
 
 // Body de la página de error
-.body_error {
-  height: 110vh;
+.background_error {
+  height: 100vh;
   background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
 }

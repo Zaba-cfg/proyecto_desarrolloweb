@@ -1,10 +1,12 @@
+// Map para las pages
 $titulos: (
   cegadoras: #7bc4e9,
   humos: #2ef99a,
   molotovs: #f45459,
 );
 
-@each $pagina, $color in $titulos {
+@each $pagina,
+$color in $titulos {
   .pagina_#{$pagina} {
     background-color: $color;
     border: solid 2px $color;

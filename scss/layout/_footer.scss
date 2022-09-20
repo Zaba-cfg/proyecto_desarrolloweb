@@ -1,9 +1,12 @@
+// Estilo logos
 footer {
-  div {
+  section {
     a {
-      .logo_footer {
-        @include tamanio_general(3em, 3em);
-        transition: all 1s;
+      i {
+        .logo_footer {
+          @include tamanio_general(3em, 3em);
+          transition: all 0s;
+        }
       }
     }
   }

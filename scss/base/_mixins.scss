@@ -2,3 +2,7 @@
   width: $ancho;
   height: $alto;
 }
+
+@mixin gradientes($lado, $color_1, $color_2) {
+  background-image: linear-gradient(to $lado, $color_1, $color_2);
+}

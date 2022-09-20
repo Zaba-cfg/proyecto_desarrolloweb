@@ -4,14 +4,25 @@
 }
 
 // Logos footer
-.logo_footer:hover {
-  transform: scale(1.2);
+.iconos_footer:hover {
+  color: $color_principal;
+}
+
+// Iframes
+.iframes:hover {
+  transform: scale(1.3);
+}
+
+// Botones
+.boton:hover {
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
 
 @keyframes logo {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
@@ -30,12 +41,8 @@ main {
   from {
     width: 60%;
   }
+
   to {
     width: 100%;
   }
-}
-
-// Iframes
-.iframes:hover {
-  transform: scale(1.2);
 }
